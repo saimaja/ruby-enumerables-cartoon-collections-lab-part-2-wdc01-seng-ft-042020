@@ -5,7 +5,7 @@ def square_array(array)
 end
 
 def summon_captain_planet(array)
-  array.each {|i| puts "#{i.capitalize}!"}
+  array.map {|i| p "#{i.capitalize}!"}
   end
 
 
@@ -19,8 +19,8 @@ def summon_captain_planet(array)
  # planeteer_calls.map do |element|
  #   new_array << "#{element.capitalize}!"
  # end
-  new_array
-end
+  #new_array
+#end
 
 def long_planeteer_calls(planeteer_calls)
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
