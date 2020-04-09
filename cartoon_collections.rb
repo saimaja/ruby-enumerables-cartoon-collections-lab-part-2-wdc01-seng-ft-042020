@@ -5,9 +5,9 @@ def square_array(array)
 end
 
 def summon_captain_planet(array)
-  array.map {|i| p "#{i.capitalize}!"}
+  array.map {|i| puts "#{i.capitalize}!"}
   end
-end
+
 
 
 
