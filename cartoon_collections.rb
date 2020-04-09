@@ -5,7 +5,7 @@ def square_array(array)
 end
 
 def summon_captain_planet(array)
-  array.map {|i| puts "#{i.capitalize}!"}
+  array.each {|i| puts "#{i.capitalize}!"}
   end
 
 
