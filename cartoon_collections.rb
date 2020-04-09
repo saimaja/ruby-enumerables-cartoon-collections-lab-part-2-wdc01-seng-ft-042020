@@ -9,9 +9,6 @@ def summon_captain_planet(array)
   end
 
 
-
-
-
 #def summon_captain_planet(planeteer_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
@@ -21,6 +18,11 @@ def summon_captain_planet(array)
  # end
   #new_array
 #end
+
+def long_planeteer_calls(array)
+  array.any? {|i| 
+
+
 
 def long_planeteer_calls(planeteer_calls)
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
