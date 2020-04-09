@@ -30,10 +30,6 @@ end
   #planeteer_calls.any? {|string| string.length > 4}
 #end
 
-def find_valid_calls(array)
-  array.find {|i|
-
-
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
